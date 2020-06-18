@@ -1,18 +1,21 @@
 <html><head><meta http-equiv="content-type" charset="utf-8">
   <meta name="viewpoint" content="width=device-width">
 <style>
-  table.ω{border-spacing:0; border-left:double; border-bottom:double; border-top:double; border-right:double;}
+  table.ω{border-spacing:0; border-left:double; border-bottom:double; border-top:double; border-right:double; max-width:700px;}
   td.左{border:hidden;}
   td.右{border:hidden;}
   .行間{line-height:160%;}
-</style></head><body><font face="serif" size="4"><span id="半径1m" name="1m" action="" onmousemove="rpm600()">半径１ｍのタイヤに、</span><span id="rpm600" action="" style="visibility:hidden" mousemove="rpm600()" onmouseover="rps10()">600[rpm]のモーターを取り付けた場合、</span></br><div style="line-height:1">
-  <div id="rps10" action="" style="visibility:hidden" onmouseover="周波数()">　　　　　　　　　　　　<font size="3">||　　~~~~~~~~~~</font></br>
+</style></head><body><font face="serif" size="4">
+  <span id="半径1m" name="1m" action="" onmousemove="rpm600()">半径１ｍのタイヤに、</span>
+  <span id="rpm600" action="" style="visibility:hidden" mousemove="rpm600()" onmouseover="rps10()">600[rpm]のモーターを取り付けた場合、</span></br><div style="line-height:1">
+  <div id="rps10" action="" style="visibility:hidden" onmouseover="周波数()">　　　　　　　　　　　　
+    <font size="3">||　　~~~~~~~~~~</font></br>
 　　　　　　　　　　&nbsp;&nbsp;10[rps]＝10[Hz]　/<font size="3">秒</br></div>
-<div id="周波数" action="" style="visibility:hidden" ><div style="list-style: height 0;"></div></br>
+<div id="周波数" action="" style="visibility:hidden" ><div style="list-style: height 0;"></div></br>　
   周波数：f</font></br></div><div id="空白” action="" onmouseover="角速度()">　</div><div id="角速度" action="" style="visibility:hidden" onclick="結果()">
-<table class="ω" border="1" align="center"><tr><td class="左">
+<table class="ω" border="1" align="left"><tr><td class="左">
   　　<font face="serif" size="4">角速度：ω = 20π[rad]　</td><td class="右">　⇐<font size="6">ω = 2πf　　</td></tr></table></div></br>
-<div id="結果" action="" style="visibility:hidden" onmousemove="メイン()" >このタイヤは、<font size="5">1秒間に</font>　20π ≒ <font size="5">62.8[m]</font></br></br>
+<div id="結果" action="" style="visibility:hidden" onmousemove="メイン()" ></br></br>このタイヤは、<font size="5">1秒間に</font>　20π ≒ <font size="5">62.8[m]</font></br></br>
 　　　　　　　<font size="5">1分間に</font>1200π≒<font size="5">3768[m]</font> 進む。
 </font></font></div><script>
 function rpm600(){document.getElementById("rpm600").style.visibility="visible";}
@@ -21,5 +24,6 @@ function 周波数(){document.getElementById("周波数").style.visibility="visi
 function 角速度(){document.getElementById("角速度").style.visibility="visible";}
 function 結果(){document.getElementById("結果").style.visibility="visible";}
 function メイン(){document.getElementById("メイン").style.visibility="visible";}
-</script></br></br></br><div id="メイン" style="margin-left:5%; visibility:hidden" margin-right:30%;"> 
-  <input type="button" value="メインへもどる" align="left" onclick="location.href='url'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;"></br><span class="行間">目いいんです( ｀ー´)ノyo。</span></div></body> </html>
+</script></br></br></br>
+    <div id="メイン" style="margin-left:5%; visibility:hidden" margin-right:30%;"> <input type="button" value="メインへもどる" align="left" onclick="location.href='url'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;">
+    </br><span class="行間">目いいんです( ｀ー´)ノyo。</span></div></body> </html>
