@@ -1,0 +1,109 @@
+<html><head><meta http-equiv="content-type" charset="utf-8">
+  <meta name="viewpoint" content="width=device-width"></head>
+  <body><form name="formname" action="">
+  <h1 align="center">長さ単位変換表</h1> 
+  <table width="567" border="0" align="center"><tr>
+   <h2 align="center">
+    <input id="iQid" name=iQname type="text" value="100" size="6" style="border:4px double; width:120px; height:60px; font-size:36px; text-align:right"/>
+    
+<style> .button {border-radius: 10px; font-size: 26px; text-align: center; }</style>
+<input type="button" class="button" id="btn1" value="in→cm" style="background-color: rgb(70, 43, 226)" onmouseover="over1()" onmouseout="out1()" onclick="clk1()">
+<input type="button" class="button" id="btn2" value="cm→in" style="background-color:chartreuse" onmouseover="over2()" onmouseout="out2()" onclick="clk2()">
+<input type="button" class="button" id="btn3" value="in→ft" style="background-color:crimson" onmouseover="over3()" onmouseout="out3()" onclick="clk3()">
+<input type="button" class="button" id="btn4" value="ft→in" style="background-color: blueviolet" onmouseover="over4()" onmouseout="out4()" onclick="clk4()">
+<input type="button" class="button" id="btn5" value="cm→ft" style="background-color:darkolivegreen" onmouseover="over5()" onmouseout="out5()" onclick="clk5()">
+<input type="button" class="button" id="btn6" value="ft→cm" style="background-color:fuchsia" onmouseover="over6()" onmouseout="out6()" onclick="clk6()">
+<script> 
+var btn1=document.getElementById("btn1");
+var btn2=document.getElementById("btn2");
+var btn3=document.getElementById("btn3"); 
+var btn4=document.getElementById("btn4"); 
+var btn5=document.getElementById("btn5");
+var btn6=document.getElementById("btn6");
+function over1(){btn2.style.visibility="hidden";
+  btn3.style.visibility="hidden"; btn4.style.visibility="hidden";
+  btn5.style.visibility="hidden"; btn6.style.visibility="hidden";}
+function over2(){btn1.style.visibility="hidden";
+  btn3.style.visibility="hidden"; btn4.style.visibility="hidden";
+  btn5.style.visibility="hidden"; btn6.style.visibility="hidden";} 
+function over3(){btn1.style.visibility="hidden";
+  btn2.style.visibility="hidden"; btn4.style.visibility="hidden";
+  btn5.style.visibility="hidden"; btn6.style.visibility="hidden";}
+function over4(){btn1.style.visibility="hidden";
+  btn2.style.visibility="hidden"; btn3.style.visibility="hidden";
+  btn5.style.visibility="hidden"; btn6.style.visibility="hidden";} 
+function over5(){btn1.style.visibility="hidden";
+  btn2.style.visibility="hidden"; btn3.style.visibility="hidden";
+  btn4.style.visibility="hidden"; btn6.style.visibility="hidden";}
+function over6(){btn1.style.visibility="hidden";
+  btn2.style.visibility="hidden"; btn3.style.visibility="hidden";
+  btn4.style.visibility="hidden"; btn5.style.visibility="hidden";} 
+
+function out1(){btn2.style.visibility="visible";
+  btn3.style.visibility="visible"; btn4.style.visibility="visible"; 
+  btn5.style.visibility="visible"; btn6.style.visibility="visible";} 
+function out2(){btn1.style.visibility="visible";
+  btn3.style.visibility="visible"; btn4.style.visibility="visible"; 
+  btn5.style.visibility="visible"; btn6.style.visibility="visible";} 
+function out3(){btn1.style.visibility="visible";
+  btn2.style.visibility="visible"; btn4.style.visibility="visible"; 
+  btn5.style.visibility="visible"; btn6.style.visibility="visible";} 
+function out4(){btn1.style.visibility="visible";
+  btn2.style.visibility="visible"; btn3.style.visibility="visible"; 
+  btn5.style.visibility="visible"; btn6.style.visibility="visible";} 
+function out5(){btn1.style.visibility="visible";
+  btn2.style.visibility="visible"; btn3.style.visibility="visible"; 
+  btn4.style.visibility="visible"; btn6.style.visibility="visible";} 
+function out6(){btn1.style.visibility="visible";
+  btn2.style.visibility="visible"; btn3.style.visibility="visible"; 
+  btn4.style.visibility="visible"; btn5.style.visibility="visible";} 
+  </script> 
+
+  <br>👇<input type="button" id="RB" value="変換する" style="padding: 25px; background-image:url(ウサギ.jpg); font-weight: bold; color:red; font-size:35px;"/>
+<td width="40"></h2><h2 align="left" class="d">（結果）：
+<input name="oAname" style="border:3px solid; width:160px; height:80px; font-size:36px;   text-align:right" action="" onmousemove="一目瞭然()"/><span id="tanni">\o_o/</span></h2></form>
+<div id=一目 style="visibility:hidden">
+  oooJava Script 一目瞭然ooo</div>
+<br /></td></h2></tr></table>
+<script>
+ 
+  var btn1=document.getElementById("btn1");
+  var btn2=document.getElementById("btn2");
+  var btn3=document.getElementById("btn3"); 
+  var btn4=document.getElementById("btn4"); 
+  var btn5=document.getElementById("btn5");
+  var btn6=document.getElementById("btn6");
+  var tanni=document.getElementById("tanni");
+  var 一目=document.getElementById("一目");
+  
+  function clk1(){Q=document.formname.iQname.value; A=2.54*Q; document.formname.oAname.value=A; btn1.style.fontSize="40px"; btn2.style.display="none"; 
+  btn3.style.display="none"; btn4.style.display="none";  
+  btn5.style.display="none"; btn6.style.display="none";
+  tanni.innerHTML="\t"+"cm";}
+  function clk2(){Q=document.formname.iQname.value; A=0.3937*Q; document.formname.oAname.value=A; btn2.style.fontSize="40px"; btn1.style.display="none"; 
+  btn3.style.display="none"; btn4.style.display="none"; 
+  btn5.style.display="none"; btn6.style.display="none";
+  tanni.innerHTML="\t"+"in";}
+  function clk3(){Q=document.formname.iQname.value; A=0.08333*Q; document.formname.oAname.value=A; btn3.style.fontSize="40px";
+  btn1.style.display="none"; btn2.style.display="none"; 
+  btn4.style.display="none";  btn5.style.display="none";
+  btn6.style.display="none"; tanni.innerHTML="\t"+"ft";}
+  function clk4(){Q=document.formname.iQname.value; A=12*Q; document.formname.oAname.value=A; btn4.style.fontSize="40px";
+  btn1.style.display="none"; btn2.style.display="none"; 
+  btn3.style.display="none"; btn5.style.display="none";
+  btn6.style.display="none"; tanni.innerHTML="\t"+"in"}
+  function clk5(){Q=document.formname.iQname.value; A=0.0328*Q; document.formname.oAname.value=A; btn5.style.fontSize="40px";
+  btn1.style.display="none"; btn2.style.display="none"; 
+  btn3.style.display="none";  btn4.style.display="none";
+  btn6.style.display="none"; tanni.innerHTML="\t"+"ft"}
+  function clk6(){Q=document.formname.iQname.value; A=30.48*Q; document.formname.oAname.value=A; btn6.style.fontSize="40px";
+  btn1.style.display="none"; btn2.style.display="none"; 
+  btn3.style.display="none"; btn4.style.display="none";
+  btn5.style.display="none";tanni.innerHTML="\t"+"cm" }
+  function 一目瞭然(){一目.style.visibility="visible";}
+</script>
+<div style="margin-left:25%; margin-right:15%;">
+  <input type="button" value="目で見るメインへもどる👀" 
+  align="left" onclick="location.href='url'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;">
+</br>目いいんです( ｀ー´)ノyo。</div>
+</body></html>
