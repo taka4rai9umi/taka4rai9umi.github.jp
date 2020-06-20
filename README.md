@@ -4,4 +4,5 @@ https://taka4rai9umi.github.io/taka4rai9umi.github.jp/main.html
 このページからは、↑↑URLをペーストして右クリックから入ってね。。🙇( TДT)ｺﾞﾒﾝﾖｰ
 <html>
   <a href="https://taka4rai9umi.github.io/taka4rai9umi.github.jp/main.html">ENTER!
+    <span>←ここからでも入れます。</span>
 <html>
