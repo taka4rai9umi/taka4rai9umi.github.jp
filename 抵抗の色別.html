@@ -1,0 +1,128 @@
+<HTML>
+  <HEAD><TITLE>抵抗の色別</TITLE>
+    <meta http-equiv="content-type" charset="utf-8">
+    <meta name="viewpoint" content="width=device-width"><style>
+  tr.隠ぺい{visibility: hidden;}
+  td.隠ぺい{visibility: hidden ;}
+ .隠ぺい{visibility: hidden ;}
+ .JS黒{font-size:32px; color: black;}
+ .JS茶{font-size:32px; color: brown;}
+ .JS赤{font-size:32px; color: red;}
+ .JS橙{font-size:32px; color: orange;}
+ .JS黄{font-size:32px; color: yellow; background-color: indigo;}
+ .JS緑{font-size:32px; color: green;}
+ .JS青{font-size:32px; color: navy;}
+ .JS紫{font-size:32px; color: indigo;}
+ .JS灰{font-size:32px; color: gray;}
+ .JS白{font-size:32px; color: honeydew; background-color: indigo;}
+ img.絵{max-width: 150px;} 
+    </style>
+    </HEAD>
+  <BODY>
+    <h2 id="最初">抵抗の色別暗記法</h2>
+    <div id="二番目">☟ここをクリック!</div>
+    <input type="button" class="button" id="btn1" value="語呂" style="background-color:chartreuse"onclick="ラジオボタン発生()">覚え方</br><table border="2" align="left"width="460px"><tr height=10"><td style="background-color:black"></td><td style="background-color:brown"></td><td style="background-color:crimson"></td><td style="background-color:darkorange"></td><td style="background-color:yellow"></td><td style="background-color:seagreen"></td><td style="background-color:blue"></td><td style="background-color:darkorchid"></td><td style="background-color:dimgray"></td><td style="background-color:floralwhite"></td><td rowspan="2" onclick="alert('じゃじゃーん');じゃじゃーん()"><font size="2">むだな<image src="むだなていこう.png" class="隠ぺいできなかった" id="じゃじゃん "width="50" height="50"></image>ていこう</font></td></tr><font size="5"><tr><script>
+    var 各色=["黒","茶","赤","橙","黄","緑","青","紫","灰","白"];
+    
+    
+    /*for(var i=0;i<;i++){document.write('<td>'+各色[i]+'</td>');}*/
+   
+    for(var i=0;i<各色.length;i++){document.write('<td>'+各色[i]+'</td>');}
+  </script>
+  </tr></font><tr class="隠ぺい" height="10" >
+    <td class="隠ぺい" id="razi黒" style="background-color:black">
+      <input type="radio" name="rad" id="rad黒" value="黒" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi茶" style="background-color:indianred">
+      <input type="radio" name="rad" id="rad茶" value="茶" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi赤" style="background-color:black">
+      <input type="radio" name="rad" id="rad赤" value="赤" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi橙" style="background-color:indianred">
+      <input type="radio" name="rad" id="rad橙" value="橙" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi黄" style="background-color:black">
+      <input type="radio" name="rad" id="rad黄" value="黄" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi緑" style="background-color:indianred">
+      <input type="radio" name="rad" id="rad緑" value="緑" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi青" style="background-color:black">
+      <input type="radio" name="rad" id="rad青" value="青" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi紫" style="background-color:indianred">
+      <input type="radio" name="rad" id="rad紫" value="紫" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi灰" style="background-color:black">
+      <input type="radio" name="rad" id="rad灰" value="灰" onclick="語呂表示()"></td>
+    <td class="隠ぺい" id="razi白" style="background-color:indianred">
+      <input type="radio" name="rad" id="rad白" value="白" onclick="語呂表示()"></td>
+    <td id="razi数字" rowspan="2"><font size="6">やい！</font></td>
+      </tr><tr>
+<td id="黒の欄">ム</td>
+<td id="茶の欄">ダ</td>
+<td id="赤の欄">ナ</td>
+<td id="橙の欄">テ</td>
+<td id="黄の欄">イ</td>
+<td id="緑の欄">コ</td>
+<td id="青の欄">ウ</td>
+<td id="紫の欄">ハ</td>
+<td id="灰の欄">ヨ</td>
+<td id="白の欄">セ</td></tr></table>
+<script>
+    function じゃじゃーん(){document.getElementById("じゃじゃん").style.visibility="visible";}
+function ラジオボタン発生(){
+document.getElementById("razi黒").style.visibility="visible";
+document.getElementById("razi茶").style.visibility="visible";
+document.getElementById("razi赤").style.visibility="visible";
+document.getElementById("razi橙").style.visibility="visible";
+document.getElementById("razi黄").style.visibility="visible";
+document.getElementById("razi緑").style.visibility="visible";
+document.getElementById("razi青").style.visibility="visible";
+document.getElementById("razi紫").style.visibility="visible";
+document.getElementById("razi灰").style.visibility="visible";
+document.getElementById("razi白").style.visibility="visible";
+document.getElementById("razi数字").style.visibility="visible";}
+
+window.onload =function(){var elem=document.querySelectorAll('input[type="radio"]');
+  for(var i=0; i<elem.length;i++){elem[i].checked=false;}}
+
+function 語呂表示(){radio=document.getElementsByName("rad");
+  if(radio[0].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS黒'>黒い礼服。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS黒'>黒＝０</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="黒.png" height="150px">';
+    document.getElementById("黒の欄").style.background='#000000';}
+  else if(radio[1].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS茶'>　小林一茶。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS茶'>茶＝１</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="茶.jpg" height="150px">';
+    document.getElementById("茶の欄").style.background='#800000';}
+  else if(radio[2].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS赤'>　　赤川次郎。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS赤'>赤＝２</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="赤.jpg" height="150px">';
+    document.getElementById("赤の欄").style.background='#FF0000';}
+  else if(radio[3].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS橙'>　　　代々３代参加。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS橙'>橙＝３</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="橙.png" height="150px">';
+    document.getElementById("橙の欄").style.background='#FFA500';}
+  else if(radio[4].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS黄'>　　　 気志團旗。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS黄'>黄＝４</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="黄.png" height="150px">';
+    document.getElementById("黄の欄").style.background='#FFFF00';}
+  else if(radio[5].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS緑'>　　　　 五月みどり。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS緑'>緑＝５</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="緑.png" height="150px">';
+    document.getElementById("緑の欄").style.background='#008000';}
+  else if(radio[6].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS青'>　　　　　 ろくでなしブルース。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS青'>青＝６</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="青.jpg" height="150px">';
+    document.getElementById("青の欄").style.background='#0000FF';}
+  else if(radio[7].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS紫'>　　　　　　紫式部。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS紫'>紫＝７</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="紫.jpg" height="150px">';
+    document.getElementById("紫の欄").style.background='#800080';}
+  else if(radio[8].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS灰'>　　　　　　　入ってはりましたか？</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS灰'>灰＝８</h2>";
+    document.getElementById("razi絵").innerHTML='<img src="灰.jpg" height="550px">';
+    document.getElementById("灰の欄").style.background='#C0C0C0';}
+  else if(radio[9].checked){document.getElementById("ここにゴロを打たせる").innerHTML="<h2 class='JS白'>　　　　　　　　釧路湿原。</h2>";
+    document.getElementById("razi数字").innerHTML="<h2 class='JS白'>白＝９</h2>";
+    document.getElementById("razi絵").innerHTML='<img class="絵" src="白.jpg" height="150px">';
+    document.getElementById("白の欄").style.background='#FFFFFF';}}
+    
+  </script><div id="razi絵">描く。</div><h3 align="right"><div id="ここにゴロを打たせる" align="left"><font size="6"> 語呂合わせ。。</font></div></h3>
+</br></br>
+<div style="margin-left:5%; margin-right:30%;"> <input type="button" value="メインへもどる" align="left" onclick="location.href='url'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;"></br>目いいんです( ｀ー´)ノyo。</div>
+</BODY></HTML>
