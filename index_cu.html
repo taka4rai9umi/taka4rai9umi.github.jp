@@ -1,30 +1,14 @@
-<html><head><meta http-equiv="content-type" charset="utf-8">
-  <meta name="viewpoint" content="width=device-width">
-<style>
-  table.ω{border-spacing:0; border-left:double; border-bottom:double; border-top:double; border-right:double; max-width:700px;}
-  td.左{border:hidden;}
-  td.右{border:hidden;}
-  .行間{line-height:160%;}
-</style></head><body>
-  <font face="serif" size="4"><span id="半径1m" name="1m" action="" onmousemove="rpm600()">半径１ｍのタイヤに、</span>
-  <span id="rpm600" action="" style="visibility:hidden" mousemove="rpm600()" onmouseover="rps10()">600[rpm]のモーターを取り付けた場合、</span>
-</br><div style="line-height:1">
-  <div id="rps10" action="" style="visibility:hidden" onmouseover="周波数()">　　　　　　　　　　　　<font size="3">||　　~~~~~~~~~~</font></br>
-　　　　　　　　　　&nbsp;&nbsp;10[rps]＝10[Hz]　/<font size="3">秒</br></div>
-<div id="周波数" action="" style="visibility:hidden" ><div style="list-style: height 0;"></div>
-</br>　　　　　　　　　　　　　　　　　　周波数：f</font></br></div><div id="空白” action="" onmouseover="角速度()">　</div>
-<div id="角速度" action="" style="visibility:hidden" onclick="結果()">
-<table class="ω" border="1" align="left"><tr><td class="左">
-  　　<font face="serif" size="4">角速度：ω = 20π[rad]　</td><td class="右">　⇐<font size="6">ω = 2πf　　</td></tr></table></div></br>
-<div id="結果" action="" style="visibility:hidden" onmousemove="メイン()" align="left"></br></br></br>このタイヤは、<font size="5">1秒間に</font>　20π ≒ <font size="5">62.8[m]</font></br></br>
-　　　　　　　<font size="5">1分間に</font>1200π≒<font size="5">3768[m]</font> 進む。
-</font></font></div><script>
-function rpm600(){document.getElementById("rpm600").style.visibility="visible";}
-function rps10(){document.getElementById("rps10").style.visibility="visible";}
-function 周波数(){document.getElementById("周波数").style.visibility="visible";}
-function 角速度(){document.getElementById("角速度").style.visibility="visible";}
-function 結果(){document.getElementById("結果").style.visibility="visible";}
-function メイン(){document.getElementById("メイン").style.visibility="visible";}
-</script></br></br></br><div id="メイン" style="margin-left:5%; visibility:hidden" margin-right:30%;">
-<input type="button" value="メインへもどる" align="left" onclick="location.href='url'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius:10px;">
-</br><span class="行間">目いいんです( ｀ー´)ノyo。</span></div></body> </html>
+<HTML>
+  <HEAD><TITLE>メインのページ</TITLE>
+    <meta http-equiv="content-type" charset="utf-8">
+    <meta name="viewpoint" content="width=device-width"><style>
+.ボタン１{background-color: aqua; height: 50;width: 100;vertical-align: bottom; border:2mm ridge; border-color:darkseagreen;font-size: large; font-style: italic;color:red;}
+.ボタン２{background-color:rosybrown; height: 40;width: 70;vertical-align: bottom; border:1.3mm ridge; border-radius: 7px; border-color:olivedrab;font-size:medium; font-style: italic;color:orangered;}
+ul#ulの行間詰める li{margin-top:0px;}    
+</style>
+    <body><ul id="ulの行間詰める">
+<li><font size="5px"><input type="button" class="ボタン１" value="hop!" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/cm_inch_feet.html'"> インチ・センチ・フィート・ヤード変換表</font></br>（肝心のmmが入ってない甘チャンプログラム・・😿）
+  <ul><li>…簡易版 <input type="button" class="ボタン２" value="pop…" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/inch_mm.html'"></li> <li>千葉県</li></ul></li>
+</ul>
+    </body>
+</HTML>
