@@ -2,17 +2,23 @@
   <HEAD><TITLE>メインのページ</TITLE>
     <meta http-equiv="content-type" charset="utf-8">
     <meta name="viewpoint" content="width=device-width">
+  
 <style>
 .ボタン１{background-color: aqua; height: 50;width: 100;vertical-align: bottom; border:2mm ridge; border-color:darkseagreen;font-size: large; font-style: italic;color:red;}
 .ボタン２{background-color:rosybrown; height: 40;width: 70;vertical-align: bottom; border:1.3mm ridge; border-radius: 7px; border-color:olivedrab;font-size:medium; font-style: italic;color:orangered;}
 .ボタン３{height: 50;width: 185;vertical-align: bottom; border:1.7mm ridge; border-radius: 7px; border-color:yellowgreen;font-size:medium; font-style: italic;color:orangered;}
-.ボタン４{height: 50;width: 220;vertical-align: bottom; border:1.7mm ridge; border-radius: 7px; border-color:navy; background-color:orchid; font-size:large; font-weight: bold; font-style: italic;color:purple; vertical-align:bottom}
-ul#ulの行間詰める li{margin-top:0px;} 
-.文字詰め{letter-spacing: -2px;} 
+.ボタン４{height: 50;width: 220;vertical-align: bottom; border:1.7mm ridge; border-radius: 7px; border-color:navy; background-color:orchid; font-size:large; font-weight: bold; font-style: italic;color:purple; vertical-align:bottom;}
+.ボタン５{height: 130;width: 80;vertical-align: bottom; border:2.2mm ridge; border-radius: 4px; border-color:darkred; background-color:peru; font-size:large; font-weight: bold; color:orangered;}
+.縦書き太赤色{writing-mode:vertical-rl; -ms-writing-mode:tb-rl; -webkit-writing-mode:vertical-rl; line-height: 0px; font-size:26px; font-weight: bold;color:red;}
+.ul#ulの行間詰める li{margin-top:0px;} 
+.文字詰め{letter-spacing: -3px;} 
 .上寄せ{vertical-align:top;}
 .下寄せ{vertical-align:bottom;}
-</style></HEAD>
-<body><ul id="ulの行間詰める">
+</style><script>
+  
+</script></HEAD>
+<body>
+  <ul id="ulの行間詰める">
 <li><font size="5px">
   <input type="button" class="ボタン１" value="hop!" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/cm_inch_feet.html'"> インチ・センチ・フィート変換表</font>
   </br>（肝心のmm(ミリメートル)が入ってない甘チャンプログラム・・😿）
@@ -28,14 +34,33 @@ ul#ulの行間詰める li{margin-top:0px;}
   <span id="コレ" class="上寄せ" style="visibility:hidden"><font size="3" >　ｺﾚ↑ｺﾚ↑('Д')ﾉノ　　　</font></span>
   <span id="複数抵抗" class="上寄せ">　</span><ul><li id="ていう" style="visibility:hidden">ていうことで(*^-^*)</li></ul></li></ul>  
 <script>
-  function 複数の抵抗(){
+function 複数の抵抗(){
   document.getElementById("コレ").style.visibility="visible"; 
   document.getElementById("ていう").style.visibility="visible";  
   document.getElementById("複数抵抗").innerHTML="<img src ='複数の抵抗.jpg' alt='複数の抵抗' width='110' height='102'>";}
-  function なんじゃ(){document.getElementById("なんじゃ").style.visibility="visible";}
-  function nogizaka(){document.getElementById("nogizaka").style.visibility="visible";}
-  function ボタン４(){document.getElementById("ボタン４").style.visibility="visible";}
+function なんじゃ(){document.getElementById("なんじゃ").style.visibility="visible";}
+function nogizaka(){document.getElementById("nogizaka").style.visibility="visible";}
+function ボタン４(){document.getElementById("ボタン４").style.visibility="visible";}
+function ドラム缶黄(){document.getElementById("ドラム缶黄").style.visibility="visible";}
+function バイーン１(){document.getElementById("バイーン１").style.visibility="visible";}
+function バイーン２(){ document.getElementById("バイーン２").style.visibility="visible";}
+function ボタン５(){document.getElementById("ボタン５").style.visibility="visible";
+document.getElementById("バイイーン").style.visibility="visible";}
+function 叩いてね(){document.getElementById("叩いてね").style.visibility="collapse";}
 </script>
-  <ul><li onmousemove="なんじゃ(),nogizaka()"><font size="5px">角速度の定義</font><span id="なんじゃ" style="visibility:hidden"><font size="5px"> ←</font>ㄱ(・・?ﾅﾝｼﾞｬﾛﾅ</span></li>
-    <ul><li onmousemove="ボタン４()">一秒間に進む回転角度<input type="button" id="ボタン４" class="ボタン４" style="visibility:hidden" value="ぐるぐるカーテン" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/speed_of_radian.html'" </li><span><img id="nogizaka" style="visibility:hidden" class="下寄せ" src="nogizaka.jpg" height="90" width="140" > </span></ul></ul>
+<ul><li onmousemove="なんじゃ(),nogizaka()"><font size="5px">角速度の定義</font><span id="なんじゃ" style="visibility:hidden"><font size="5px"> ←</font>ㄱ(・・?ﾅﾝｼﾞｬﾛﾅ</span></li>
+  <ul><li onmousemove="ボタン４()">一秒間に進む回転角度
+  <input type="button" id="ボタン４" class="ボタン４" style="visibility:hidden" 
+  value="ぐるぐるカーテン" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/speed_of_radian.html'"
+  </li><span><img id="nogizaka" style="visibility:hidden" class="下寄せ" src="nogizaka.jpg" height="90" width="140" > </span></ul></ul>
+
+<ul><li onmousemove="ドラム缶黄()"><font size="5px">ドラム缶の問題</font>
+  <img id="ドラム缶黄" class="下寄せ" style="visibility:hidden" src="ドラム缶・黄.jpg" 
+  onclick="バイーン２(),叩いてね(),setTimeout('バイーン１()',1000),setTimeout('ボタン５()',2500)" width="60" height="100">
+  <span id="叩いてね" class="文字詰め"><font size="1px" >⇇叩いてね。</font></span>
+  <span id="バイーン１" class="上寄せ" style="visibility:hidden; transform: rotate(345deg); display: inline-block;">バイーン!(^^)!</span>
+  <input type="button" id="ボタン５" class="ボタン５" style="visibility:hidden" value="❕❕" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/dram_question.html'">
+  <span id="バイイーン" class="縦書き太赤色" style="visibility:hidden">バイイーン</span><span><font size="2px"> 　　🎻バイオリーン</font>
+</br>　　　　　　　　　　　　<span id="バイーン２" class="上寄せ" style="visibility:hidden; transform: rotate(22deg); display: inline-block;">バイーン!(^^)!</span></li><ul><li><span id="バイオリン"></span><span>ドラム缶の基本について。　　　　　　　　　　　　　　　　　　　　　<a href="">参考サイト</span></li></ul></ul>  
 </body></HTML>
+ 
