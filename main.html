@@ -6,9 +6,11 @@
 .ボタン１{background-color: aqua; height: 50;width: 100;vertical-align: bottom; border:2mm ridge; border-color:darkseagreen;font-size: large; font-style: italic;color:red;}
 .ボタン２{background-color:rosybrown; height: 40;width: 70;vertical-align: bottom; border:1.3mm ridge; border-radius: 7px; border-color:olivedrab;font-size:medium; font-style: italic;color:orangered;}
 .ボタン３{height: 50;width: 185;vertical-align: bottom; border:1.7mm ridge; border-radius: 7px; border-color:yellowgreen;font-size:medium; font-style: italic;color:orangered;}
+.ボタン４{height: 50;width: 220;vertical-align: bottom; border:1.7mm ridge; border-radius: 7px; border-color:navy; background-color:orchid; font-size:large; font-weight: bold; font-style: italic;color:purple; vertical-align:bottom}
 ul#ulの行間詰める li{margin-top:0px;} 
 .文字詰め{letter-spacing: -2px;} 
 .上寄せ{vertical-align:top;}
+.下寄せ{vertical-align:bottom;}
 </style></HEAD>
 <body><ul id="ulの行間詰める">
 <li><font size="5px">
@@ -24,12 +26,16 @@ ul#ulの行間詰める li{margin-top:0px;}
 </span>の色別数値の覚え方。</font>
 </br><span>　　　</span>
   <span id="コレ" class="上寄せ" style="visibility:hidden"><font size="3" >　ｺﾚ↑ｺﾚ↑('Д')ﾉノ　　　</font></span>
-  <span id="複数抵抗" class="上寄せ">　</span><ul><li id="ていう" style="visibility:hidden">ていうことで(*^-^*)</li></ul></li></ul>
-  
+  <span id="複数抵抗" class="上寄せ">　</span><ul><li id="ていう" style="visibility:hidden">ていうことで(*^-^*)</li></ul></li></ul>  
 <script>
   function 複数の抵抗(){
   document.getElementById("コレ").style.visibility="visible"; 
-  document.getElementById("ていう").style.visibility="visible"; 
+  document.getElementById("ていう").style.visibility="visible";  
   document.getElementById("複数抵抗").innerHTML="<img src ='複数の抵抗.jpg' alt='複数の抵抗' width='110' height='102'>";}
+  function なんじゃ(){document.getElementById("なんじゃ").style.visibility="visible";}
+  function nogizaka(){document.getElementById("nogizaka").style.visibility="visible";}
+  function ボタン４(){document.getElementById("ボタン４").style.visibility="visible";}
 </script>
+  <ul><li onmousemove="なんじゃ(),nogizaka()"><font size="5px">角速度の定義</font><span id="なんじゃ" style="visibility:hidden"><font size="5px"> ←</font>ㄱ(・・?ﾅﾝｼﾞｬﾛﾅ</span></li>
+    <ul><li onmousemove="ボタン４()">一秒間に進む回転角度<input type="button" id="ボタン４" class="ボタン４" style="visibility:hidden" value="ぐるぐるカーテン" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/speed_of_radian.html'" </li><span><img id="nogizaka" style="visibility:hidden" class="下寄せ" src="nogizaka.jpg" height="90" width="140" > </span></ul></ul>
 </body></HTML>
