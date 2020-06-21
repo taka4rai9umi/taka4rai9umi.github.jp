@@ -5,26 +5,31 @@
 <style>
 .ボタン１{background-color: aqua; height: 50;width: 100;vertical-align: bottom; border:2mm ridge; border-color:darkseagreen;font-size: large; font-style: italic;color:red;}
 .ボタン２{background-color:rosybrown; height: 40;width: 70;vertical-align: bottom; border:1.3mm ridge; border-radius: 7px; border-color:olivedrab;font-size:medium; font-style: italic;color:orangered;}
-.ボタン３{background-color:rosybrown; height: 48;width: 185;vertical-align: bottom; border:1.3mm ridge; border-radius: 7px; border-color:olivedrab;font-size:medium; font-style: italic;color:orangered;}
+.ボタン３{height: 50;width: 185;vertical-align: bottom; border:1.7mm ridge; border-radius: 7px; border-color:yellowgreen;font-size:medium; font-style: italic;color:orangered;}
 ul#ulの行間詰める li{margin-top:0px;} 
 .文字詰め{letter-spacing: -2px;} 
 .上寄せ{vertical-align:top;}
 </style></HEAD>
-
-  <body><ul id="ulの行間詰める">
-<li><font size="5px"><input type="button" class="ボタン１" value="hop!" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/cm_inch_feet.html'"> インチ・センチ・フィート変換表</font></br>（肝心のmm(ミリメートル)が入ってない甘チャンプログラム・・😿）
-  <ul><li>…簡易改訂版 <input type="button" class="ボタン２" value="pop…" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/inch_mm.html'"></li> </ul></li>
-
-</br></br><li><font size="5px">  
-抵抗<span><input type="button" class="ボタン３" onmousemove="複数の抵抗()" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/color_memo_resistance.html'" style="background-image:url(横抵抗記号ギザ.jpg); background-size:contain;"></span>の色別数値の覚え方。
-</br><span>　　　
-  <span id="コレ" class="上寄せ"  style="visibility:hidden"><font size="3" >↑ｺﾚ↑('Д')ﾉ　　　　</font></span><span id="複数抵抗" class="上寄せ">　</span><li>ていうことで(*^-^*)</li>
+<body><ul id="ulの行間詰める">
+<li><font size="5px">
+  <input type="button" class="ボタン１" value="hop!" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/cm_inch_feet.html'"> インチ・センチ・フィート変換表</font>
+  </br>（肝心のmm(ミリメートル)が入ってない甘チャンプログラム・・😿）
+<ul><li>…簡易改訂版 
+  <input type="button" class="ボタン２" value="pop…" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/inch_mm.html'">
+</li></ul> </li></ul>
+</br><ul><li><font size="5px">  
+  抵抗<span>
+  <input type="button" class="ボタン３" onmousemove="複数の抵抗()" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/color_memo_resistance.html'" 
+  style="background-image:url(横抵抗記号ギザ.jpg); background-size:contain;">
+</span>の色別数値の覚え方。</font>
+</br><span>　　　</span>
+  <span id="コレ" class="上寄せ" style="visibility:hidden"><font size="3" >　ｺﾚ↑ｺﾚ↑('Д')ﾉノ　　　</font></span>
+  <span id="複数抵抗" class="上寄せ">　</span><ul><li id="ていう" style="visibility:hidden">ていうことで(*^-^*)</li></ul></li></ul>
   
-</ul>
 <script>
   function 複数の抵抗(){
   document.getElementById("コレ").style.visibility="visible"; 
-  document.getElementById("複数抵抗").innerHTML="<img src ='複数の抵抗.jpg' alt='複数の抵抗' width='100' height='90'>";}
+  document.getElementById("ていう").style.visibility="visible"; 
+  document.getElementById("複数抵抗").innerHTML="<img src ='複数の抵抗.jpg' alt='複数の抵抗' width='110' height='102'>";}
 </script>
-    </body>
-</HTML>
+</body></HTML>
