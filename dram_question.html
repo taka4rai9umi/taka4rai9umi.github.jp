@@ -1,9 +1,13 @@
 <html><head><title>ドラム缶の定義</title>
   <meta http-equiv="content-type" charset="utf-8">
   <meta name="viewpoint" content="width=device-width">
-<style>img.ドラム{max-width: 90px;} </style></head><body>
+<style>img.ドラム{max-width: 90px;} 
+.gallon{color:limegreen; background-color:palegoldenrod}
+</style></head><body>
 <h2>ドラム缶の問題<img class=ドラム src="水色ドラム缶.png" width="82" height="60" alt="青いドラム缶のイラスト" /> 
-</h2><h3>○ ドラム缶とは、<br>　最小容量が…<span id=sp1>?</span><form name="最小量" action="">
+</h2><h3>○ ドラム缶とは、<br>　最小容量が…
+  <span id="sp1"  onmousemove="setTimeout('gallon18ℓ()',1300)">?</span><span id="gallon18" class="gallon" onmousemove="setTimeout('gallon18ℓ()',1300)">
+  <font size="2">〖ﾋﾝﾄで〗</font></span><form name="最小量" action="">
   <input type="radio" id="id10" name="最小" checked>10ℓ
   <input type="radio" id="id15" name="最小" >15ℓ
   <input type="radio" id="id18" name="最小" >18ℓ
@@ -13,8 +17,13 @@
   function 確定1a(){document.getElementById("id18");
   if(document.最小量.id18.checked==true){document.getElementById("max").style.visibility="visible";}} 
   function 確定1b(){document.getElementById("id18");
-  if(document.最小量.id18.checked==true){document.getElementById("sp1").innerHTML="◎18ℓ".fontcolor("red").fontsize(4);}}</script>
-<form id="max" name="最大量" action="" style= "visibility:hidden">　かつ、最大容量が…<span id=sp2>?</span><br>
+  if(document.最小量.id18.checked==true){document.getElementById("sp1").innerHTML="◎18ℓ".fontcolor("red").fontsize(4);}}
+  function gallon18ℓ(){document.getElementById("gallon18").innerHTML="＝4.75ガロン";}
+  function gallon400ℓ(){document.getElementById("gallon400").innerHTML="＝105.67ガロン";}
+  </script>
+<form id="max" name="最大量" action="" style="visibility:hidden">　かつ、最大容量が…
+  <span id="sp2" onmousemove="setTimeout('gallon400ℓ()',1300)">?
+  </span><span id="gallon400" class="gallon" onmousemove="setTimeout('gallon400ℓ()',1300)"><font size="2">〖ﾋﾟﾝﾄ〗</font></span><br>
   <input type="radio" id="i200" name="最大" checked>200ℓ
   <input type="radio" id="i300" name="最大" >300ℓ
   <input type="radio" id="i400" name="最大" >400ℓ
@@ -33,11 +42,14 @@
   <input type="radio" id="l400" name="一般容量" >400ℓ
 <input type="button" value=確定する onclick="確定3()"/></form><script>
 function 確定3(){document.getElementById("一般的");
-  if(document.一般.l20.checked==true){document.getElementById("解説").innerHTML="　✖極小の中小缶。取っ手の付いたペール缶もある。<br>内径288㎜ × 内高335㎜(空気層含む)<br>　　　　　　全高約375㎜".fontsize(2);}
+  if(document.一般.l20.checked==true){document.getElementById("解説").innerHTML="　✖極小の中小缶。取っ手の付いたペール缶もある。<br>内径288㎜ × 内高335㎜(空気層含む)
+                                    <br>　　　　　　全高約375㎜".fontsize(2);}
   else if(document.一般.l60.checked==true){document.getElementById("解説").innerHTML="　　　△小型の中小缶。内径395㎜ × 内高530㎜(空気層含む)<br>　　　　　　　　　　　全高約580㎜".fontsize(3);}
   else if(document.一般.l100.checked==true){document.getElementById("解説").innerHTML="　　　　○中小缶。内径450㎜ × 内高660㎜(空気層含む)<br>　　　　　　　　　　　　全高約710㎜".fontsize(4);}
-  else if(document.一般.l200.checked==true){document.getElementById("解説").innerHTML="　　　　"+"◎".fontcolor("red").fontsize(6)+"一般的。内径450㎜ × 内高845㎜(空気層含む)<br>　　　　　　　　　　　　　全高895㎜".bold().fontsize(5);}
+  else if(document.一般.l200.checked==true){document.getElementById("解説").innerHTML="　　　　"+"◎".fontcolor("red").fontsize(6)+"一般的。内径450㎜ × 内高845㎜(空気層含む)
+                                          <br>　　　　　　　　　　　　　全高895㎜".bold().fontsize(5);}
   else if(document.一般.l400.checked==true){document.getElementById("解説").innerHTML="　　　( ﾟДﾟ)大型❕ 内径㎜ × 内高㎜(空気層含む)<br>　　　　　　　　　　　全高約㎜".fontsize(6);}}
 </script></h3><div id="解説"></div>
 </br></br>
-<div style="margin-left:5%; margin-right:40%;"> <input type="button" value="メインへもどる" align="left" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/main.html'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;"></br>滅入るんです((+_+))yooo。</div></body></html>
+<div style="margin-left:5%; margin-right:40%;"> 
+  <input type="button" value="メインへもどる" align="left" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/main.html'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;"></br>滅入るんです((+_+))yooo。</div></body></html>
