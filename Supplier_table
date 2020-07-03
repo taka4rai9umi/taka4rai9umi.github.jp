@@ -1,0 +1,115 @@
+  <html><head><meta http-equiv="content-type" charset="utf-8">
+    <meta name="viewpoint" content="width=device-width">
+  <script>
+    function wopen(){win=window.open("2020.0611取引先.html","new","width=1360,height=900");
+    win.moveTo(60,60);}
+  </script><form><input type="button" value="適切な大きさのウィンドウ"  onclick="wopen()"</form><span>　表内の色が変わっているところは、多分にリンク有ります。</span><style>
+    .max_width{max-width:320px; width:320px;}
+    .a{color:darkgreen; font-weight: bolder;}
+    .cov{color:red; font-weight: bolder;}
+  </style>
+  </head>
+  <table border="2" border-solid="1px" id="化学" width="1340" height="300"> 
+<thead style="background:rgb(63, 159, 238); color: rgb(74, 8, 136); display: block; overflow-x:auto; overflow-y:hidden;  height: 70px;">
+<tr><td colspan="6" >化　学</td></tr><tr style="text-align: center; color:midnightblue; background-color:paleturquoise; padding:20px 5px; height: 40px;" colspan="6" ><th width="50px"></th><th width="300px"> 取引先名<th width="60px">コード</th>
+<th width="320px">製 品　　</th><th width="260px">工 場　　</th><th width="130px">本社</th><th>参　照</th></thead>
+<tbody  style="display:block; overflow-x:hidden; overflow-y:scroll; height:240px;">    
+<tr><td width=50px"></td><td width="300px">アイカ工業</td><td width="60px">4206</td><td width="300px">化粧板</td><td width="260px">古河市　伊勢崎市</td><td width="130px">名古屋市</td><td></td></tr>
+  <tr><td></td><td>AGC(旧・旭硝子)
+  </td><td>5201</td><td>ガラス</td><td>市原市　神栖市　愛甲町</td><td>千代田区</td><td></td></tr>
+  <tr><th></th><td>荒川化学工業</td><td>4968</td><td>製紙・印刷用松ヤニ樹脂</td><td>富士市　いわき市</td><td>大阪市中央区</td><td>ﾏﾂﾀﾛｳ・ﾛｼﾞｰﾅ</td></tr>
+  <tr><td></td><td>出光興産</td><td>5019</td><td>原油・石油製品</td><td>川崎市　市原市</td><td>千代田区</td><td><font size="2">人は,無限のｴﾈﾙｷﾞｰ</font></td></tr><tr>
+    <td></td><td><font size="2">EMGﾏ-ｹﾃｨﾝｸﾞ(合)(旧ｴｸｿﾝﾓｰﾋﾞﾙ㈲)</td><td>0000</td><td>石油製品・石油化学製品の販売</td><td>川崎市鶴見区　田村市</td><td>港区</td><td>ｴｯｿ･ﾓｰﾋﾞﾙ･ｾﾞﾈﾗﾙ</td></tr>
+    <tr><td></td><td>大阪有機化学工業</td><td>4187</td ><td class="max_width"><font size="2px"><a class="a" onClick="location.href='https://ameblo.jp/benzen3104/entry-11729421560.html'">ｴｽﾃﾙ化製品</a>･液晶･半導体･化粧品ﾎﾟﾘﾏ材</font></td>
+    <td><span style ="color:darkorchid">八千代市</span></td><td>大阪市中央区</td><td></td></tr>
+    <tr><td>レ点</td><td>鹿島ケミカル</td><td>0000</td><td>ﾄﾞﾗﾑ缶内部･電着塗装,ﾌﾟﾘﾝﾄ基板</td><td>神栖市</td><td>神栖市</td><td><font size="2px">ｴﾋﾟｸﾛﾙﾋﾄﾞﾘﾝ･ECH</font></td></tr>
+    <tr><td></td><td>協和化工</td><td>0000</td><td></td><td>　</td><td></td><td></td></tr>
+    <tr><td></td><td>楠本化成</td><td>0000</td><td>添加剤</td><td>越谷市　草加市　神栖市</td><td>千代田区</td><td>ﾃﾞｨｽﾊﾟﾛﾝ･🐢</td></tr>
+    <tr><td></td><td>クラレ</td><td>0000</td><td>🎒人口皮革･ｴﾗｽﾄﾏｰ･乾式不織布</td><td>神栖市</td><td>千代田区</td><td><font size="2">ﾏｼﾞｯｸﾃｰﾌﾟ(面ﾌｧｽﾅ)</font></td></tr>
+    <tr><td></td><td>ゴードー</td><td>0000</td><td>有機薬品･生活資材関連品</td><td>本社工場</td><td>千代田区</td><td></td></tr>
+    <tr><td></td><td>サイデン化学</td><td>0000</td><td>接着･粘着剤</td><td>さいたま市</td><td>中央区</td><td>ﾌﾞﾛﾝｺｽ･Vｱﾘｰﾅ</td></tr>
+    <tr><td></td><td>三和化成工業</td><td>0000</td><td>潤滑油[ｴﾝｼﾞﾝｵｲﾙ]</td><td>金沢区　焼津市</td><td>横浜市金沢区</td><td>verity･samic</td></tr>
+  <tr><td></td><td>出光興産(旧･昭和ｼｪﾙ石油)</td><td>5019</td><td></td><td>川崎区　市原市</td><td>千代田区</td><td>門司区発祥</td></tr>
+  <tr><td></td><td>ENEOS(旧JXTGｴﾈﾙｷﾞｰ)</td><td>5001</td><td></td><td><font size="2px">宮城野区 神栖市 市原市 磯子区</font></td><td>千代田区</td><td></td></tr>
+  <tr><td></td><td>日本特殊コーティング(NCI)</td><td>0000</td><td>セラミック溶射</td><td>工場所在地(主に東日本)</td><td>土浦市</td><td>備考欄</td></tr>
+  <tr><td></td><td>純正化学</td><td>0000</td><td>受託合成･試薬･食品添加物</td><td>越谷･下妻･北茨城市･大熊町</td><td>中央区</td><td>備考欄</td></tr>
+  <tr><td></td><td>昭栄ケミカル</td><td>0000</td><td>ｼﾝﾅｰ､樹脂ｸﾘﾔ､硬化剤､油性塗料､ｲﾝｷ</td><td>茨城県桜川市･九十九里町</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>昭和電工</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>信越化学工業</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>新酸素化学</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>住友化学工業</td><td><font size="2px">[4005]</font></td><td>有機合成技術</td><td>工場所在地(主に東日本)</td><td>大阪市淀川区</td><td>備考欄</td></tr>
+  <tr><td></td><td>綜研化学</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>太平化成</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>企業名</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+</tbody></table>
+
+  <table border="2" border-solid="1px" id="塗料" width="1340" height="240"> 
+<thead style="background:hotpink ; color: rgb(74, 8, 136); display: block; overflow-x:auto; overflow-y:hidden;  height: 70px;">
+<tr><td colspan="6" >塗　料</td></tr><tr style="text-align: center; color:red; background-color:mistyrose; padding:20px 5px; height: 40px;" colspan="6" ><th width="50px"></th><th width="300px"> 取引先名
+<th width="60px">コード</th><th width="300px">製 品　　</th><th width="280px">工 場　　</th>
+<th width="130px">本社</th><th>参　照</th></th></thead>
+<tbody  style="display:block; overflow-x:hidden; overflow-y:scroll; height:180px;">    
+<tr><td width="50px"></td><td width="300px">関西ペイント</td><td width="60px">4613</td><td width="300px">遮熱塗料・<a class="cov" onClick="location.href='https://www.kansai.co.jp/sikkuitape/'">接触感染対応ﾃｰﾌﾟ</style>
+</td><td width="260px">大田区　平塚市　鹿沼市</td><td width="130px">大阪市中央区</td><td></td></tr>
+  <tr><td></td><td>カナエ塗料</td><td>0000</td><td>防錆塗料</td><td>　</td><td>大阪市鶴見区</td><td></td></tr>
+  <tr><td></td><td>サカタインクス</td><td>4633</td><td>新聞・包装インキ</td><td>野田市　羽生市</td><td>大阪市西区</td><td></td></tr>
+  <tr><td></td><td>神東塗料</td><td>4615</td><td>電着塗料</td><td><span style ="color:darkorchid">八千代市</span></td><td>尼崎市</td><td>米・ﾃﾞｭﾎﾟﾝ社</td></tr>
+  <tr><td></td><td>ＤＩＣ(旧･大日本ｲﾝｷ)</td><td>4631</td><td>印刷インキ,有機顔料,合成樹脂</td><td width="280px"><font size="2">板橋 市原･神栖･館林 伊奈 </font><span style ="color:darkorchid">佐倉市</span>
+  </td><td>中央区</td><td class="a"  onClick="location.href='https://www.dic-graphics.co.jp/products/cguide/'">DICｶﾗｰｶﾞｲﾄﾞ</td></tr>
+  <tr><td></td><td>大豊(だいほう)塗料</td><td>0000</td><td>金属･ﾌﾟﾗｽﾁｯｸ樹脂用塗料</td><td>本社工場</td><td>久喜市</td><td></td></tr>
+  <tr><td></td><td>中国塗料</td><td>0000</td><td>船舶･ｺﾝﾃﾅ用塗料</td><td>野洲市</td><td>広島県大竹市</td><td></td></tr>
+  <tr><td></td><td>トーヨーケム</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>トウベ製造</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>ナトコ</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>日本ペイント</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>日本ﾍﾟｲﾝﾄ防食ｺｰﾃｨﾝｸﾞｽ</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>BASFｺｰﾃｨﾝｸﾞｽｼﾞｬﾊﾟﾝ</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>武蔵塗料</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>ロックペイント</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>予備</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  
+</tbody></table>
+
+<table border="2" border-solid="1px" id="洗剤" width="1340" height="240"> 
+<thead style="background:lime ; color: rgb(74, 8, 136); display: block; overflow-x:auto; overflow-y:hidden;  height: 70px;">
+<tr><td colspan="6" >洗　剤</td></tr><tr style="text-align: center; color:seagreen; background-color:palegreen; padding:20px 5px; height: 40px;" colspan="6"><th width="50px"></th><th width="300px"> 取引先名</th><th width=60px">コード</th>
+<th width="300px">製 品　　</th><th width="260px">工 場　　</th><th width="130px">本社</th><th>参　照</th></thead>
+<tbody style="display:block; overflow-x:hidden; overflow-y:scroll; height:160px;">    
+  <tr><td width="50px">レ</td><td width="300px">ＮＳファーファジャパン</td><td width="60px">0000</td><td width="300px">衣料柔軟剤・洗口液</td><td width="260px">神栖市</td><td width="130px">中央区</td><td></td></tr>
+  <td></td><td>花王</td><td>4452</td><td>洗顔・体・口・髪　化粧品</td><td>酒田 栃木芳賀 神栖 川崎</td><td>中央区</td><td></td></tr>  
+  <td></td><td>広栄化学工業</td><td>4367</td><td>有機窒素化合物・<a class="cov"  onClick="location.href='https://www.koeichem.com/dcms_media/other/20200430release4367.pdf'">ｱﾋﾞｶﾞﾝ原料</a></td><td>袖ケ浦市</td>
+  <td>中央区日本橋</td><td><a class="cov" onClick="location.href='https://www.clinicfor.life/articles/covid-023/'">ﾚﾑﾃﾞｼﾋﾞﾙ原料</a></td></tr>
+  <td></td><td>第一石鹸</td><td>0000</td><td>衣料・台所洗剤・<span style ="color:deepskyblue">ハンドソープ</span></td><td>邑楽郡板倉町</td><td>群馬県邑楽郡</td><td>ﾉｳﾞｧｰｼﾞｭ</td></tr>
+  <td></td><td>ニイタカ</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>ライオンケミカル</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>予備</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  </tbody></table>
+        
+<table border="2" border-solid="1px" id="食品" width="1340" height="240"> 
+<thead style="background:gold ; color: rgb(74, 8, 136); display: block; overflow-x:auto; overflow-y:hidden;  height: 70px;">
+<tr><td colspan="6" >食　品</td></tr><tr style="text-align: center; color:tomato; background-color:rgb(255, 193, 122); padding:20px 5px; height: 40px;" colspan="6"><th width="50px"></th><th width="300px"> 取引先名</th>
+<th width="60px">コード</th><th width="300px">製 品　　</th><th width="260px">工 場　　</th><th width="130px">本社</th><th>参　照</th></thead>
+<tbody style="display: block; overflow-x:hidden; overflow-y: scroll; height:160px;">    
+<tr><td width="50px"></td><td width="300px">ＡＤＥＫＡ</td><td width="60px">4401</td><td width="300px">ﾏｰｶﾞﾘﾝ・ﾎｲｯﾌﾟｸﾘｰﾑ</td><td width="260px">相馬 神栖 袖ケ浦 富士市</td><td width="130px">荒川区</td><td>合成樹脂添加剤</td></tr>
+  <td></td><td>一番食品</td><td>0000</td><td>企業用調味料・ｽｰﾌﾟ・ﾚﾄﾙﾄ食品</td><td>小美玉市</td><td>飯塚市</td><td style="font-size:0.9em">おいしいおつきあい</td></tr>  
+  <td></td><td>稲葉香料</td><td>0000</td><td>菓子・飲料用香料</td><td>常総市</td><td>大阪市淀川区</td><td>ﾌﾚｸﾞﾗﾝｽ･ｽｷﾝｹｱ</td></tr>
+  <td></td><td>三菱商事ライフサイエンス</td><td style="font-size:0.9em">[8058]</td><td>うま味調味料・合成清酒</td><td></td><td></td><td style="color:fuchsia; font-size:0.75em">旧･MCﾌｰﾄﾞｽﾍﾟｼｬﾘﾃｨｽﾞ</td></tr>
+  <td>レ点</td><td>かどや製油</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td>レ点</td><td>加藤製油</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td>レ点</td><td>協同乳業</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>Ｊ-オイルミルズ</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>仙波糖化工業</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>竹本油脂</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>月島食品工業</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>日清ｵｲﾘｵｸﾞﾙｰﾌﾟ</td><td>0000</td><td></td><td>伊達市　田村市</td><td>本宮市</td><td></td></tr>
+  <tr><td></td><td>ヒゲタ醤油</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>不二製油</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>ボーソー油脂</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>ボーソーハチミツ</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>理研ビタミン</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+  <tr><td></td><td>予備</td><td>0000</td><td>製品名</td><td>工場所在地(主に東日本)</td><td>本社所在地</td><td>備考欄</td></tr>
+</tbody></table> 
+</br>
+<div style="margin-left:5%; margin-right:30%;"> 
+<input type="button" value="メインへもどる" align="left" onclick="location.href='url'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;">
+</br>目・委員です　ｴﾍﾝ( ｀ー´)ノyaah。</div> </html>
