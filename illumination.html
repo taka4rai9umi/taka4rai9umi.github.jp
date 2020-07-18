@@ -2,10 +2,8 @@
   <meta name="viewpoint" content="width=device-width">
 <style></style></head><body>
 <h2>車の電装に全く詳しくないけど、スモールランプは知ってるよ！</h2>
-<p>そんなあなたへ質問ー</br>スモールランプＯＮと共に点灯する室内ＬＥＤの仕組みとは？<span>
-  <input type="button" value="(・・?ｼﾂﾓ-ﾝ❓" style="color:deeppink; background-color:gold; border-radius:10%; height:60px; width: 160px; font-size: large;" onclick="極４リレー(),setTimeout('slideshow()',2900),setTimeout('気にしないで()',9800)"></span></p>
-<table><tr><td><img id="極４リレー" style="visibility:hidden" height="330" width="370" src="4極リレー.jpg"></td><td><img id="mypic" style="visibility:hidden" height="330" width="400" data-src="4極リレー_スモール(イルミ電源)オフ①.png" onmousemove="">
-  </td><td id="気にしないで" style="visibility: hidden">全体図と内部動作図の色配置が左右逆になってますが、</br>気にしないで(*^▽^*)</td></tr></table>
+<p onmousemove="車幅灯画像()"><font size="4">そんなあなたへ質問ー</font><span id="車幅灯画像" style="visibility:hidden;"><img src="車幅灯.jpg" height="130" width="240"></img></span></br>スモールランプＯＮと共に点灯する室内ＬＥＤの仕組みとは？<span><input type="button" value="(・・?ｼﾂﾓ-ﾝ❓" style="color:deeppink; background-color:gold; border-radius:10%; height:60px; width: 160px; font-size: large;" onclick="極４リレー(),setTimeout('slideshow()',2900),setTimeout('気にしないで()',9800)"></span></p>
+<table><tr><td><img id="極４リレー" style="visibility:hidden" height="330" width="370" src="4極リレー.jpg"></td><td><img id="mypic" style="visibility:hidden" height="330" width="400" data-src="4極リレー_スモール(イルミ電源)オフ①.png" onmousemove=""></td><td id="気にしないで" style="visibility: hidden">全体図と内部動作図の色配置が左右逆になってますが、</br>気にしないで(*^▽^*)</td></tr></table>
 <script>
   function 極４リレー(){document.getElementById("極４リレー").style.visibility="visible";}
   function スモールオフ１(){document.getElementById("スモールオフ１").style.visibility="visible";}
@@ -16,7 +14,7 @@
   document.getElementById("mypic").src=pics_src[num];
   document.getElementById("mypic").style.visibility="visible";}
   setInterval(slideshow,3400);
+  function 車幅灯画像(){document.getElementById("車幅灯画像").style.visibility="visible";}
 </script>
 
-<div style="margin-left:5%; margin-right:30%;">  
-  <input type="button" value="メインへもどる" align="left" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/main.html'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;"></br>目に優しいいんです( ゜ー゜)ﾉノよー。</div></body></html>
+<div style="margin-left:5%; margin-right:30%;">  <input type="button" value="メインへもどる" align="left" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/main.html'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;"></br>目に優しいいんです( ゜ー゜)ﾉノよー。</div></body></html>
