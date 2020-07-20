@@ -1,20 +1,57 @@
 <html><head><meta http-equiv="content-type" charset="utf-8">
   <meta name="viewpoint" content="width=device-width">
-<style></style></head><body>
+<style>
+.極４リレー {position: relative;}  
+.極４リレー p1{position: absolute; color:red; top:120;left:130; font-size:larger; visibility: hidden;}
+.極４リレー p2{position: absolute; color:orange; top:200; left:0; transform: rotate(33deg); font-size:xx-large; line-height: 35px; font-family:"HuiFontP109","Meiryo"; visibility: hidden;}  
+.極４リレー p3{position: absolute; color: blue; top:230; left:210; transform: rotate(345deg); visibility: hidden;} 
+.ギボタン{width:130; height:60; font-size:45; font-weight: bold; padding:0; text-shadow:2px 2px 2px red; box-shadow: 0px 2px 2px 0px;}
+.ギボシ画像{position: relative;}
+.ギボシ画像 p{position: absolute; color:mintcream; top:0; left:0; font: size 3;}
+</style></head><body>
 <h2>車の電装に全く詳しくないけど、スモールランプは知ってるよ！</h2>
-<p onmousemove="車幅灯画像()"><font size="4">そんなあなたへ質問ー</font><span id="車幅灯画像" style="visibility:hidden;"><img src="車幅灯.jpg" height="130" width="240"></img></span></br>スモールランプＯＮと共に点灯する室内ＬＥＤの仕組みとは？<span><input type="button" value="(・・?ｼﾂﾓ-ﾝ❓" style="color:deeppink; background-color:gold; border-radius:10%; height:60px; width: 160px; font-size: large;" onclick="極４リレー(),setTimeout('slideshow()',2900),setTimeout('気にしないで()',9800)"></span></p>
-<table><tr><td><img id="極４リレー" style="visibility:hidden" height="330" width="370" src="4極リレー.jpg"></td><td><img id="mypic" style="visibility:hidden" height="330" width="400" data-src="4極リレー_スモール(イルミ電源)オフ①.png" onmousemove=""></td><td id="気にしないで" style="visibility: hidden">全体図と内部動作図の色配置が左右逆になってますが、</br>気にしないで(*^▽^*)</td></tr></table>
+<p onmousemove="車幅灯画像()"><font size="4">そんなあなたへ質問…その１</font><span id="車幅灯画像" style="visibility:hidden;"><img src="車幅灯.jpg" height="130" width="240"></img></span>
+</br>スモールランプＯＮと共に点灯する室内ＬＥＤの仕組みとは？<span>
+<input type="button" value="(・・?ｼﾂﾓ-ﾝ❓" style="color:deeppink; background-color:gold; border-radius:10%; height:60px; width: 160px; font-size: large;" onclick="極４リレー(),
+setTimeout('slideshow()',2900),setTimeout('ON()',3200),setTimeout('カチッ()',4850),setTimeout('LED()',5900),setTimeout('気にしないで()',9800)"></span></p>
+<table><tr onmousemove="質問２(),setTimeout('ギボシ画像１()',3300),setTimeout('ギボシ画像２()',4800),setTimeout('ギボシ画像３()',6300),setTimeout('ギボシ画像()',8000)"><td>
+  <div class="極４リレー"><img id="極４リレー" style="visibility:hidden" height="330" width="370" src="4極リレー.jpg">
+  <p1 id="カチッ">(^_-)-☆</br>”カチッ!!”</p1><p2 id="LED">　LED⇓</br>ぺかっ⇓</br>　💡　⇓</p2><span>
+  <p3 id="ON">⇑</br>⇑　ON ❕</br>⇑車幅(ｽﾓｰﾙ)灯</span></p3></div></td>
+  <td><img id="mypic" style="visibility:hidden" height="330" width="400" data-src="4極リレー_スモール(イルミ電源)オフ①.png"></td>
+  <td id="気にしないで" style="visibility: hidden">全体図と内部動作図の色配置が左右逆になってますが、
+  </br>気にしないで(*^▽^*)</td></tr></table>
+
+<p id="質問２" style="visibility:hidden"><font size="4">質問…その２</br>ギボシのつなぎ方で正しいのは、次の三つのうちどれ??</font></p>
+　　<input type="button" value="1⃣" id="btn1" action="" class="ギボタン" onclick="btn1()">　　　　　　　
+<input type="button" action="" value="2⃣" id="btn2" class="ギボタン">　　　　　　　
+<input type="button" action="" value="3⃣" id="btn3" class="ギボタン" onclick="正解ギボシ()">
+<div class="ギボシ画像"><img src="宜保翔.jpg" width="800" height="670">
+<p id="ギボシ画像" style="text-align:right;"><font size="8">　　　ギボ シッカリ</font></br><font size="6">　　　宜保翔しっかり</br>　　　捕まえちゃる！！</font></p></div>
 <script>
-  function 極４リレー(){document.getElementById("極４リレー").style.visibility="visible";}
-  function スモールオフ１(){document.getElementById("スモールオフ１").style.visibility="visible";}
-  function 気にしないで(){document.getElementById("気にしないで").style.visibility="visible";}
+function 極４リレー(){document.getElementById("極４リレー").style.visibility="visible";}
+function ON(){document.getElementById("ON").style.visibility="visible";}
+function LED(){document.getElementById("LED").style.visibility="visible";}
+function カチッ(){document.getElementById("カチッ").style.visibility="visible";}
+function スモールオフ１(){document.getElementById("スモールオフ１").style.visibility="visible";}
+function 気にしないで(){document.getElementById("気にしないで").style.visibility="visible";}
   const pics_src=["4極リレー_スモール(イルミ電源)オフ①.png","4極リレー_スモール(イルミ電源)オフ①.png","4極リレー_スモール(イルミ電源)オフ②.png","4極リレー_スモール(イルミ電源)オン①.png","4極リレー_スモール(イルミ電源)オン②.png","4極リレー_スモール(イルミ電源)オン③.png","4極リレー_スモール(イルミ電源)オン③.png","スモールライト結末.jpg","スモールライト結末.jpg"];
   let num=-1;
   function slideshow(){if(num===8){num=0;}else{num++;}
   document.getElementById("mypic").src=pics_src[num];
   document.getElementById("mypic").style.visibility="visible";}
   setInterval(slideshow,3400);
-  function 車幅灯画像(){document.getElementById("車幅灯画像").style.visibility="visible";}
+function 車幅灯画像(){document.getElementById("車幅灯画像").style.visibility="visible";}
+function 質問２(){document.getElementById("質問２").style.visibility="visible";}
+function ギボシ画像１(){document.getElementById("ギボシ画像").innerHTML="<img src ='ギボシ端子ダメパターン１.jpg' alt='がっぷり' width='210' height='220'>";}
+function ギボシ画像２(){document.getElementById("ギボシ画像").innerHTML="　　　　　　　　　　又は<img src ='ギボシ端子ダメパターン２.jpg' alt='さきっちょ' width='240' height='220'>";}
+function ギボシ画像３(){document.getElementById("ギボシ画像").innerHTML="　　　　　　　　　　　　　　　　　　　　　　　又は<img src ='ギボシ端子正解ポジション.jpg' alt='ほどよい' width='250' height='220'>";}
+function ギボシ画像(){document.getElementById("ギボシ画像").innerHTML="<img src ='ギボシ端子ダメパターン１.jpg' alt='がっぷり' width='250' height='220'>又は<img src ='ギボシ端子ダメパターン２.jpg' alt='さきっちょ' width='240' height='220'>又は<img src ='ギボシ端子正解ポジション.jpg' alt='ほどよい' width='270' height='220'>";}
+function 正解ギボシ(){document.getElementById("ギボシ画像").innerHTML="<img src ='ギボシ端子正解ポジション.jpg' alt='ほどよい' left='200' width='590' height='480'>";
+document.getElementById("btn1").style.visibility="hidden";
+document.getElementById("btn2").style.visibility="hidden";
+document.getElementById("btn3").style.backgroundColor="deeppink";}
 </script>
-
-<div style="margin-left:5%; margin-right:30%;">  <input type="button" value="メインへもどる" align="left" onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/main.html'" style=" font-size:22px; background-color:chocolate; height:7%; width:80%; border-radius: 10px;"></br>目に優しいいんです( ゜ー゜)ﾉノよー。</div></body></html>
+<div style="margin-left:5%; margin-right:30%;">
+<input type="button" value="宜保氏とメインへもどる" align="left"  onclick="location.href='https://taka4rai9umi.github.io/taka4rai9umi.github.jp/main.html'" style=" font-size:22px; background-color:chocolate; height:5.5%; width:80%; border-radius: 10px;">
+</br>選球眼いいんです⁇?( ゜ー゜)ﾉノよー。</div></body></html>
